@@ -1,6 +1,7 @@
 import random
 n_try=1
-print("Welcome to the Number Guessing Game!\n")
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number between 1 and 100.\n")
 number_to_guess=random.randint(1,100)
 chances=0
 play=True
